@@ -7,10 +7,10 @@ The dataset comprises of Time, Amount, Class and 28 features(V1 to V28) obtained
 The dataset contains only 0.172% of fraud cases so it is very unbalanced. The dataset is split as 70% training data and 30% testing data. As the dataset is unbalanced we train the model on 50-50 data of fraud and non fraud cases instead of a highly biased dataset towards non fraud cases. This helps the model to learn better about the fraud cases. We test the models using the same method of 50% fraud cases and 50% non fraudd cases from the test data. This new test data is better to use as compared to the old test data where the non fraud cases were extremely high.
 
 
-### Steps:
-Reading and visualising the data
-Preparing the data for modeling
-Build and train the model on new_Xtrain and new_ytrain and evaluate the model on accuracy and f1 score for different kernels using new_Xtest and new_ytest.
+## STEPS
+1. Reading and visualising the data
+2. Preparing the data for modeling
+3. Build and train the model on new_Xtrain and new_ytrain and evaluate the model on accuracy and f1 score for different kernels using new_Xtest and new_ytest.
 
 
 ## CONCLUSION
