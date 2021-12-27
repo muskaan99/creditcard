@@ -4,7 +4,7 @@ The dataset is obtained from https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 The dataset comprises of Time, Amount, Class and 28 features(V1 to V28) obtained from PCA. Support vector machines (SVM) will be used for classification. We will make use of the features and Class in classification by using different kernel functions. Linear Kernel, RBF Kernel, Sigmoid Kernel and Polynomial Kernel are the four different types of kernel functions which were tried out.
 
-The dataset contains only 0.172% of fraud cases so it is very unbalanced. The dataset is split as 70% training data and 30% testing data. As the dataset is unbalanced we train the model on 50-50 data of fraud and non fraud cases instead of a highly biased dataset towards non fraud cases. This helps the model to learn better about the fraud cases. We test the models using the same method of 50% fraud cases and 50% non fraudd cases from the test data. This new test data is better to use as compared to the old test data where the non fraud cases were extremely high.
+The dataset contains only 0.172% of fraud cases so it is very unbalanced. The dataset is split as 70% training data and 30% testing data. As the dataset is unbalanced we train the model on 50-50 data of fraud and non fraud cases instead of a highly biased dataset towards non fraud cases. This helps the model to learn better about the fraud cases. We test the models using the same method of 50% fraud cases and 50% non fraud cases from the test data. This new test data is better to use as compared to the old test data where the non fraud cases were extremely high.
 
 
 ## STEPS
